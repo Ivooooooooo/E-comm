@@ -1,0 +1,23 @@
+.buttonLink {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.buttonLink:hover {
+  border-color: white;
+  color: white;
+}
+
+.buttonLink:focus,
+.buttonLink:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

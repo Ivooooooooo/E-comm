@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+import React from "react";
+
+import MainRoutes from "./routes/MainRoutes";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+function App() {
+  return (
+    <>
+      <MainRoutes />
+    </>
+  );
+}
+=======
 import ButtonComponent from "./components/ButtonComponent/ButtonComponent";
 import NavBarComponent from "./components/NavBarComponent/NavBarComponent";
 import ItemListContainer from "./components/ItemListContainerComponent/ItemListContainerComponent";
@@ -21,5 +36,6 @@ const App = () => {
     </>
   );
 };
+>>>>>>> e21aa20057951619c0f6fd04af5e723362d784dc
 
 export default App;

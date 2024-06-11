@@ -3,16 +3,25 @@
   line-height: 1.5;
   font-weight: 400;
 
+<<<<<<< HEAD
+=======
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+>>>>>>> e21aa20057951619c0f6fd04af5e723362d784dc
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+<<<<<<< HEAD
+body {
+  background-color: #242424;
+  width: 100vw;
+  color: white;
+=======
 a {
   font-weight: 500;
   color: #646cff;
@@ -28,6 +37,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+>>>>>>> e21aa20057951619c0f6fd04af5e723362d784dc
 }
 
 h1 {

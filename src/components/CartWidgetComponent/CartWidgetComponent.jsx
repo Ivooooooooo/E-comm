@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
+
+const CartWidgetComponent = () => {
+  const customStyles = {
+    color: "white",
+    fontSize: "1.3rem",
+    marginRight: "0.5rem",
+  };
+  return (
+    <div>
+      <FontAwesomeIcon icon={faCartPlus} style={customStyles} />
+      <span style={customStyles}>0</span>
+=======
 import React, { useState, useEffect } from "react";
 import "./CartWidgetComponent.css";
 
@@ -21,6 +38,7 @@ const CartWidgetComponent = () => {
   return (
     <div className="cartWidget">
       <span>🛒= {itemCount}</span>
+>>>>>>> e21aa20057951619c0f6fd04af5e723362d784dc
     </div>
   );
 };

@@ -1,0 +1,44 @@
+/* ItemListContainerComponent.css */
+.itemListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    height: 80vh;
+  }
+  
+  .product-card {
+    width: calc(20% - 10px);
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-image {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+  }
+  
+  .product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .product-card .card-text {
+    flex-grow: 1;
+  }
+  
+  .toggle-expand {
+    color: #007bff;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
